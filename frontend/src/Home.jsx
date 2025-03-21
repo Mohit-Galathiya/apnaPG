@@ -59,7 +59,7 @@ const Home = () => {
 
             {/* Footer */}
             <footer style={{ textAlign: "center", padding: "10px", backgroundColor: "#222", color: "white" }}>
-                <p>Copyright © 2025. ApnaPG</p>
+                <p>Copyright  2025. ApnaPG</p>
             </footer>
         </div>
     );
