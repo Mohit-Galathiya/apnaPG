@@ -1,0 +1,61 @@
+/* Properties Section */
+.properties-container {
+    margin-top: 90px;
+    background: white;
+    padding: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section-header {
+    background: #0000FF;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #F5F5F5;
+}
+
+/* Property Image */
+td img {
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.add-room, .add-facility {
+    background: purple;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.add-room:hover {
+    background: #6a0dad;
+}
+
+.add-facility:hover {
+    background: #8a2be2;
+}
