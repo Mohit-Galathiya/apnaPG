@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 /* Table Container */
 .table-container {
@@ -64,70 +63,3 @@ button {
 .cancel-btn:hover {
     background: darkred;
 }
-=======
-
-/* Table Container */
-.table-container {
-    margin-top: 100px;
-    background: white;
-    padding: 20px;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Table Header */
-.table-header {
-    background: blue;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 18px;
-}
-
-/* Table Styling */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
-    width: 3rem;
-}
-
-th {
-    background: #f5f5f5;
-}
-
-/* Property Image */
-.property-img {
-    width: 100px;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Buttons */
-button {
-    border: none;
-    padding: 8px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    margin: 3px;
-}
-
-.cancel-btn {
-    background: red;
-    color: white;
-}
-
-.cancel-btn:hover {
-    background: darkred;
-}
->>>>>>> f90f52f08c065f0ac935d5c0cdaf10eb6636e3f5

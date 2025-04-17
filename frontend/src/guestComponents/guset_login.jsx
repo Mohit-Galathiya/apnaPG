@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import './guset.css'; // same CSS file used for consistency
 import Header from "../Components/Header/Header";
@@ -103,31 +102,3 @@ const GuestLogin = () => {
 };
 
 export default GuestLogin;
-=======
-import React from 'react';
-import './guset_login.css';
-
-const LoginGuest = () => {
-  return (
-    <div>
-      <div className="container" style={{height:"fit-content",marginTop:"6rem"}}>
-        <div className="login-box">
-          <h1>Login</h1>
-
-          <label htmlFor="email">Email</label>
-          <input type="text" id="email" placeholder="Enter Your Name" />
-
-          <label htmlFor="password">Password</label>
-          <input type="password" id="password" placeholder="Enter Your Email" />
-
-          <a href="/admin/home">
-            <button className="submit-btn">Login</button>
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default LoginGuest;
->>>>>>> f90f52f08c065f0ac935d5c0cdaf10eb6636e3f5
