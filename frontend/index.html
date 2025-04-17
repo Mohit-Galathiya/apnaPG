@@ -5,9 +5,36 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+  
   </head>
-  <body>
+  <style>
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #F2F1FD;
+}
+
+/* Make the main content area expand to push footer to the bottom */
+main {
+  flex: 1;
+  padding: 100px 20px 50px;
+  text-align: center;
+  background: linear-gradient(45deg, #B9CBD9, #F2E8E9);
+}
+
+  </style>
+  <body id="root">
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>

@@ -1,0 +1,71 @@
+/* Global Styles */
+
+  /* Profile Container */
+  .profile-container {
+    width: 50%;
+    margin: 50px auto;
+    background: #ebe9fc;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Profile Title */
+  .profile-title {
+    font-size: 22px;
+    color: #3b3b98;
+    background: #c1bff7;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto 20px auto;
+  }
+  
+  /* Profile Form */
+  .profile-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .input-group {
+    width: 48%;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  
+  /* Profile Buttons */
+  .profile-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background: #3b3b98;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .btn:hover {
+    background: #2d2d6a;
+  }
+  
