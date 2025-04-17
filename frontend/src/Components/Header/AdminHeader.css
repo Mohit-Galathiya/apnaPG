@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Header Styles */
 .navbar {
     display: flex;
@@ -65,4 +66,73 @@
       margin-top: 10px;
     }
   }
+=======
+/* Header Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #cbd5e1, #e2e8f0);
+    padding: 10px 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .navbar-logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Navigation Links */
+  .navbar-links {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a i {
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    color: #0077cc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links {
+      width: 100%;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+  }
+>>>>>>> f90f52f08c065f0ac935d5c0cdaf10eb6636e3f5
   

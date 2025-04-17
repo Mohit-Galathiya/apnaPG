@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -55,3 +56,62 @@ body {
 .pay-btn:hover {
     background: darkgreen;
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ebe9fc;
+}
+
+.booking-container {
+    width: 70%;
+    margin: 50px auto;
+    background: #f4f4ff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.booking-title {
+    font-size: 24px;
+    color: white;
+    background: #0000ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.booking-table th, .booking-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.booking-table th {
+    background: #3b3b98;
+    color: white;
+}
+
+.booking-table td {
+    background: #ffffff;
+}
+
+.pay-btn {
+    padding: 8px 15px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    background: darkgreen;
+}
+>>>>>>> f90f52f08c065f0ac935d5c0cdaf10eb6636e3f5

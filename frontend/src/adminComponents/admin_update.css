@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* Table Container */
 .table-container {
@@ -90,3 +91,78 @@ button {
     width: 400px;
   }
   
+=======
+
+/* Table Container */
+.table-container {
+    margin-top: 100px;
+    background: white;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Header */
+.table-header {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #f5f5f5;
+}
+
+/* Links */
+td a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 3px;
+}
+
+.update-btn {
+    background: blue;
+    color: white;
+}
+
+.update-btn:hover {
+    background: darkblue;
+}
+
+.delete-btn {
+    background: purple;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: darkviolet;
+}
+>>>>>>> f90f52f08c065f0ac935d5c0cdaf10eb6636e3f5

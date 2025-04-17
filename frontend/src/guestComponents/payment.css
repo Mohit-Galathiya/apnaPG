@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Global Styles */
 
   
@@ -87,4 +88,95 @@
     background: black;
     color: white;
   }
+=======
+/* Global Styles */
+
+  
+  /* Payment Container */
+  .payment-container {
+    width: 50%;
+    margin: 50px auto;
+    background: #f4f4ff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Payment Title */
+  .payment-title {
+    font-size: 24px;
+    color: white;
+    background: #0000ff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* UPI QR Section */
+  .upi-title {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .upi-qr {
+    margin: 20px 0;
+  }
+  
+  .upi-qr img {
+    width: 150px;
+  }
+  
+  .upi-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .upi-icons img {
+    width: 30%;
+  }
+  
+  .options_payment {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* UPI Input Field */
+  .upi-input {
+    margin: 20px 0;
+  }
+  
+  .upi-input label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .upi-input input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .verify-btn {
+    background: black;
+    color: white;
+  }
+>>>>>>> f90f52f08c065f0ac935d5c0cdaf10eb6636e3f5
   
